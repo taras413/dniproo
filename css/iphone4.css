@@ -1,0 +1,147 @@
+/* iPhone 4 ----------- */ 
+@media only screen and (min-width: 320px) and (min-height: 480px) and (orientation: portrait){
+
+/*Header*/
+
+
+.logo{
+	    float: left;
+	    margin: 19px 11px;
+	    width: 96px;
+	 }
+.image-top {
+    height: 21px;
+    margin-right: -8px;
+    margin-left: 18px;
+	}
+.clook {
+    display: none;
+    }
+nav.primary {
+    float: right;
+    top: 0px;
+    margin: -55px; 
+	}
+nav.primary>ul {
+    list-style: none;
+    padding: 74px 61px;
+    margin: 0;
+    text-align: left;
+    font-size: 5px;
+    }    
+nav.primary>ul>li {
+    margin-left: -29px;
+	}
+ nav.botton-nav {
+    display: none;
+    }	
+nav.primary>ul>li>a {
+    line-height: 36px;
+	}
+
+/*Slider*/
+.testimonials{
+    padding: 0 0;
+    background-color: #eff9fe;
+    width: 100%;
+    height: 458px;
+    }
+.testimonials__image{
+    width: 100% !important;
+    height: 195px !important;
+    }
+.testimonials__content {
+    font-size: 12px;
+	}
+.testimonials .owl-dots {
+    margin: 26px 0px 0 -86px;
+	}
+
+
+/*Content*/ 
+
+.content{
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    }
+
+
+.col-9{
+    padding: 0 10px;
+    width: 100%;
+    float: left;
+    margin-top: -55px;       
+    }
+.col-3{
+    padding: 0 10px;
+    width: 100%;
+    float: left;
+    }
+article {
+	position: relative;
+	background: #eff9fe;
+	margin-bottom: 15px;
+	height: 340px;
+	cursor: pointer;
+	}
+article p{
+    font-size: 12px;
+	}
+.p_blok{        
+    font-size: 12px;
+	}
+.p_contact{
+    font-size: 12px;
+	} 
+article .thumbnail {
+	width: 100%;
+	height: 196px;
+	margin: 0 0;
+	background: 100% 2% no-repeat;
+	background-size: contain;
+	vertical-align: bottom;
+	position: relative;
+	}
+.icons_contact {
+    left: 15%;
+	}
+
+/*Footer*/ 
+
+.container {
+    width: 320px;
+    margin: 0px auto;
+	}	
+footer.root {
+    height: 80px;
+    max-height: 100px;
+    position: relative;
+    top: -12px;
+    width: 100%;
+	}
+.logo-footer{
+    padding: 10px 0 0 0;
+    text-align: center;
+    }
+nav.footer>ul {
+    font-size: 7px;   list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+	}
+nav.footer>ul>li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+    margin: -8px;
+    }
+.foot {
+    margin-top: -29px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 7px;
+    color: #0072bc;
+	}
+}

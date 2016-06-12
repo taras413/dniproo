@@ -1,0 +1,157 @@
+
+
+@media only screen and (min-width: 480px) and (min-height: 320px) and (orientation: landscape) {
+
+/*Header*/
+
+.logo {
+    float: left;
+    margin: 19px 30px;
+    width: 96px;
+	}
+.image-top {
+    height: 26px;
+    margin-left: 17px;
+    margin-right: -7px;
+	}
+.clook {
+    display: none;
+    }
+nav.primary {
+    float: right;
+    top: 0px;
+    margin: -55px; 
+	}
+nav.primary>ul {
+    list-style: none;
+    padding: 75px 85px;
+    margin: 0;
+    text-align: left;
+    font-size: 8px;
+	}
+nav.primary>ul>li {
+    margin-left: -29px;
+	}
+ nav.botton-nav {
+    display: none;
+    }	
+
+/*Slider*/
+.testimonials{
+    padding: 0 0;
+    background-color: #eff9fe;
+    width: 100%;
+    height: 394px;
+    }
+.testimonials__image{
+    width: 100% !important;
+    height: 229px !important;
+    }
+.testimonials__content {
+    font-size: 12px;
+	}
+.testimonials .owl-dots {
+    margin: 26px 0px 0 -86px;
+	}
+
+
+/*Content*/ 
+
+.content{
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    }
+.col-9{
+    padding: 0 10px;
+    width: 100%;
+    float: left;
+    margin-top: -55px;       
+    }
+.col-3{
+    padding: 0 10px;
+    width: 100%;
+    float: left;
+    }
+article{
+	position: relative;
+	background: #eff9fe;
+	margin-bottom: 20px;
+	height: 445px;
+	cursor: pointer;
+	}
+article p{
+    font-size: 14px;
+    }
+.p_blok{        
+    font-size: 14px;
+ 	}
+.p_contact{
+    font-size: 14px;            
+    } 
+article .thumbnail {
+	width: 100%;
+	height: 315px;
+	margin: 0 0;
+	background: 100% 2% no-repeat;
+	background-size: contain;
+	vertical-align: bottom;
+	position: relative;
+	}
+.icons_contact {
+    left: 15%;
+	}
+a.button{
+    bottom: 140px;
+	}
+.icons_contact {
+    left: 27%;
+    margin: 6px;
+    top: -1%;
+    }
+.conteiner {
+    height: 160px;
+	}
+
+
+/*Footer*/ 
+
+.container {
+    width: 480px;
+    margin: 0px auto;
+	}	
+
+footer.root {
+    height: 80px;
+    max-height: 100px;
+    position: relative;
+    top: -10px;
+    width: 100%;
+	}
+
+.logo-footer{
+    padding: 10px 0 0 0;
+    text-align: center;
+    }
+nav.footer>ul{
+    font-size: 9px;   
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+	}
+nav.footer>ul>li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    font-weight: 600;
+    margin: -7px;
+    }
+.foot {
+    margin-top: -29px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 10px;
+    color: #0072bc;
+	}
+}
